@@ -1,0 +1,5 @@
+1.	dotnet new console (this is for a console app)
+2.	dotnet restore
+3.	Write code
+4.	dotnet run
+•	In Visual Studio Code: to debug programs with user input, set console to “integrated terminal” in launch.json
