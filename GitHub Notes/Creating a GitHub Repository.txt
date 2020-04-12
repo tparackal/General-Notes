@@ -1,0 +1,19 @@
+1.	Add files to directory
+
+2.	git init
+
+3.	git add <files>
+
+4.	git commit
+
+	a.	Insert comment
+
+		i.	Press I to insert
+		
+		ii.	Press Esc and :wq to save and quit
+		
+5.	git remote add origin <URL>
+
+	a.	Get URL from github.com
+	
+6.	git push -u origin master

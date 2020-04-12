@@ -1,0 +1,17 @@
+1.	Open Terminal/Command Prompt and type in ssh-keygen -t rsa -b 4096 -c “email address”
+
+	a.	Press Enter 3 times to create public key
+	
+2.	Type $eval “$(ssh-agent -s)”
+
+3.	Type $ssh-add ~/.ssh/id_rsa
+
+4.	Type the following based on the OS
+
+	a.	Windows: clip < ~/.ssh/id_rsa.pub
+	
+	b.	Linux: xclip -sel clip < ~/.ssh/id_rsa.pub
+	
+	c.	Mac: pbcopy < ~/.ssh/id_rsa.pub
+	
+5.	Paste key on github.com
