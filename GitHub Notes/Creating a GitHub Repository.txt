@@ -2,7 +2,7 @@
 
 2.	git init
 
-3.	git add <files>
+3.	git add <files> or git add --all
 
 4.	git commit
 
