@@ -3,3 +3,22 @@
 3.	Write code
 4.	dotnet run
 •	In Visual Studio Code: to debug programs with user input, set console to “integrated terminal” in launch.json
+
+
+dotnet new sln  -- creates a new solution
+
+dotnet new classlib -- creates a class library (DLL) project
+
+dotnet sln add <.csproj file> --  adds project to solution
+
+dotnet new nunit -- creates a new MSTest project
+
+dotnet add reference <.csproj file> -- adds a reference adds the project as a reference to the current project
+
+dotnet test -- runs NUnit test project
+
+dotnet run -- runs project
+
+dotnet watch --project <.csproj file> test -- creates a watch that executes the test command whenever a file change occurs
+
+dotnet watch --project <.csproj file> run -- creates a watch that executes the run command whenever a file change occurs
